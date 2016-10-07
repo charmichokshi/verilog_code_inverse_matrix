@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 /**
-    Name            : Charmi Chokshhi
+    Name            : Charmi Chokshi
     Roll No         : 201501021
 
     Subject         : Linear Algebra
@@ -35,10 +35,10 @@ begin
 		
 		//2nd row		
 		mat[1][0]=16'd0;
-	   mat[1][1]=16'd1;
-      mat[1][2]=16'd4;
-      mat[1][3]=16'd1;
-      mat[1][4]=16'd0;
+ 	        mat[1][1]=16'd1;
+                mat[1][2]=16'd4;
+	        mat[1][3]=16'd1;
+		mat[1][4]=16'd0;
 		mat[1][5]=16'd0;
 		mat[1][6]=16'd1;
 		mat[1][7]=16'd0;
@@ -47,7 +47,7 @@ begin
 
 		//3rd row
 		mat[2][0]=16'd0;
-      mat[2][1]=16'd0;
+                mat[2][1]=16'd0;
 		mat[2][2]=16'd1;
 		mat[2][3]=16'd4;
 		mat[2][4]=16'd1;
@@ -412,17 +412,17 @@ begin
 		$display("Given Matrix: ");
 		$display();
 
-		$write("1.0000    ");
+		$write("1.0000    ");		//printing given matrix
 		$write("4.0000   ");
 		$write("1.0000    ");
 		$write("0.0000   ");
-		$display("0.0000		");
+		$display("0.0000");
 		
 		$write("0.0000    ");
 		$write("1.0000    ");
 		$write("4.0000   ");
 		$write("1.0000    ");
-		$display("0.0000		");
+		$display("0.0000");
 		
 		$write("0.0000    ");
 		$write("0.0000    ");
