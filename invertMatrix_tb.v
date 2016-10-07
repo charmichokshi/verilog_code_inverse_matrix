@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 /**
-    Name            : Charmi Chokshhi
+    Name            : Charmi Chokshi
     Roll No         : 201501021
 
     Subject         : Linear Algebra
